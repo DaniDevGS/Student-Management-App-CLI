@@ -178,5 +178,23 @@
         "Cedula": "26832492",
         "Nota Global": 18.333333333333332,
         "Carrera": "Investigaci\u00f3n Penal"
+    },
+    {
+        "Nombre": "Dani Dev",
+        "Edad": 18,
+        "Notas": [
+            20,
+            18,
+            15,
+            12,
+            12,
+            12,
+            1,
+            12,
+            12
+        ],
+        "Cedula": "22323211",
+        "Nota Global": 12.666666666666666,
+        "Carrera": null
     }
 ]
