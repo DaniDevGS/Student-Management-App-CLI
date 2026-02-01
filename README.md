@@ -64,7 +64,7 @@ Administrador:	admin123
 ```
 
 
-⚠️ Nota: Esta es una credencial de prueba para el desarrollo. ¡Cámbiala en producción!
+⚠️ Nota: Esta es una credencial de prueba para el desarrollo.
 ##  Estructura del proyecto
 ```bash
 student-management_python-basic/
