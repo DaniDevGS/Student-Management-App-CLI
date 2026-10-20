@@ -1,82 +1,84 @@
-# Gestión de Estudiantes Python Basic
+# Student Management Python Basic
 
-[![Estado](https://img.shields.io/badge/estado-activo-brightgreen)](https://github.com/DaniDevGS/student-management_python-basic)
-[![Licencia](https://img.shields.io/badge/licencia-CC_BY--ND_4.0-lightgrey)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/DaniDevGS/student-management_python-basic)
+[![License](https://img.shields.io/badge/license-CC_BY--ND_4.0-lightgrey)](https://creativecommons.org/licenses/by-nd/4.0/)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)](https://python.org)
-[![Tecnología](https://img.shields.io/badge/Tecnología-CLI%20&%20JSON-yellow)](https://github.com/DaniDevGS/student-management_python-basic)
+[![Technology](https://img.shields.io/badge/Technology-CLI%20%26%20JSON-yellow)](https://github.com/DaniDevGS/student-management_python-basic)
 [![Code Style](https://img.shields.io/badge/code%20style-PEP8-brightgreen)](https://pep8.org)
 
-![Captura de pantalla del sistema StudentFlow en la terminal](https://images.unsplash.com/photo-1624953587687-daf255b6b80a?fm=jpg&q=60&w=800&h=400&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHl0aG9uJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D)
+![Screenshot of the StudentFlow system in the terminal](https://images.unsplash.com/photo-1624953587687-daf255b6b80a?fm=jpg&q=60&w=800&h=400&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHl0aG9uJTIwcHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D)
 
 <br>
 
-Sistema de gestión académica basica: es un sistema de gestión académica **básico y ligero**, desarrollado completamente en **Python**. Está diseñado para la terminal (CLI) y permite a los **estudiantes** registrar sus datos de forma sencilla, mientras que a los **administradores** les ofrece una vista completa y la gestión de la información.
+A basic academic management system: a **simple and lightweight** application developed entirely in **Python**. Designed to run in the command-line interface (CLI), it allows **students** to register their information easily, while providing **administrators** with a comprehensive view and tools to manage the data.
 
-## ✨ Funcionalidades Destacadas
+## ✨ Key Features
 
-- Interfaz de línea de comandos con colores (usando Colorama)
-- Validación de datos integrada
-- Persistencia de datos mediante archivos JSON
-- Diseño colorido y amigable para terminal
-- Gestión de estudiantes y administradores
+- Colorful command-line interface (using Colorama)
+- Built-in data validation
+- Data persistence using JSON files
+- Colorful, user-friendly terminal interface
+- Student and administrator management
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python)](https://github.com/DaniDevGS/computer-academy_frontend-project) -->
 
-* **Python:** Versión 3.6+ 
-* **Colorama:** Utilizada para añadir colores y estilos a la interfaz de terminal.
-* **JSON:** Empleado como sistema de base de datos para la persistencia de datos.
+- **Python:** Version 3.6+
+- **Colorama:** Used to add colors and styles to the terminal interface.
+- **JSON:** Used as a data storage system for persistence.
 
+## ⚙️ Prerequisites
 
-## ⚙️ Requisitos Previos
+- Python 3.6 or later
+- pip (Python package manager)
 
-- Python 3.6 o superior
-- pip (gestor de paquetes de Python)
+## 🚀 Installation
 
-## 🚀 Instalación y Ejecución
+1. Clone the repository:
 
-1. Clona el repositorio:
 ```bash
 git clone https://github.com/DaniDevGS/student-management_python-basic
 cd student-management_python-basic
 ```
 
-2. Instala dependencias:
+2. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🚀 Ejecucion
+## 🚀 Running the Application
 
-1. Abrir terminal:
+1. Open a terminal and run:
+
 ```bash
 python main.py
 ```
 
-### 🔑 Credenciales de Prueba (Modo Administrador)
+### 🔑 Test Credentials (Administrator Mode)
 
-Para acceder a las funciones avanzadas del menú de administrador, el sistema requiere una contraseña.
+To access the advanced features in the administrator menu, the system requires a password.
 
-```bash
-Administrador:	admin123
-
+```text
+Administrator: admin123
 ```
 
+⚠️ **Note:** This is a test credential intended for development.
 
-⚠️ Nota: Esta es una credencial de prueba para el desarrollo.
-##  Estructura del proyecto
-```bash
+## 📁 Project Structure
+
+```text
 student-management_python-basic/
 ├── utils/
 │   ├── components/
-│   │   ├── statistics/ # Lógica de estadísticas o reportes
+│   │   ├── statistics/ # Statistics and reporting logic
 │   │   │   └── stats.py
-│   │   └── universitys.py # Datos o lógica específica de universidad
+│   │   └── universitys.py # University-specific data or logic
 │   ├── database/
-│   │   └── json.py # Módulo para el manejo de archivos JSON
-│   └── menu.py # Módulo para la gestión del menú de la CLI
-├── estudiantes.json # Almacén de datos
-├── main.py # Punto de entrada principal de la aplicación
+│   │   └── json.py # Module for handling JSON files
+│   └── menu.py # CLI menu management module
+├── estudiantes.json # Data storage
+├── main.py # Main application entry point
 └── requirements.txt
 ```
